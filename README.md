@@ -32,3 +32,10 @@ You should have the following in your Gemfile:
     # Use Unicorn as our app server
     gem 'unicorn'
 
+
+## add sidekiq support 
+
+    gem 'capistrano-sidekiq'
+
+remove this line 
+>set :rbenv_map_bins, %w{rake gem bundle ruby rails}
